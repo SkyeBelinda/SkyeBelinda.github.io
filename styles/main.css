@@ -14,7 +14,7 @@ a {
 p {
   background: #666;
   color: white;
-  padding: 10px 10 px 0px 0px;
+  padding: 10px 10px
 }
 
 .secondary {
@@ -23,12 +23,12 @@ p {
 }
  header {
    background-color: #999
-   colour: white:
-   padding: 15px 15px 0 15px
+   colour: white;
+   padding: 15px 15px 0 15px;
  }
 
  header h1{
-   margin: 0
+   margin: 0;
    display: inline;
  }
 
@@ -97,7 +97,6 @@ acronym[title] {
 html,
 body {
   font-family: "ff-meta-web-pro", sans-serif;
-  text-rendering: optimizeLegibility;
   font-size: 100%;
   line-height: 26px;
   background: #f6efe5;
@@ -182,13 +181,11 @@ Intro
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .intro header h2 {
   position: relative;
-  background: #0d2c40 url(icon-star.svg) no-repeat left bottom;
   background-size: 101%;
   float: right;
   color: #ffffff;
@@ -447,20 +444,7 @@ Main
   -o-transform: rotate(-90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
-  @media (max-width: 53em) {
-    .main .explanation h3 {
-      position: relative;
-      font-size: 150%;
-      top: 0;
-      left: 0;
-      padding: 0;
-      -webkit-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
-    }
-  }
+
 .main .explanation p {
   width: 60%;
   padding-left: 15%;
