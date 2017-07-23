@@ -1,4 +1,6 @@
-<body style="background-image:url(images/sensetsky.jpg)">
+body {
+    background-image: url("sunset-sky.jng");
+}
 
 
 body {
@@ -21,7 +23,7 @@ h1, h2, p, li {
 }
 
 a {
-  color: green;
+  color: grey;
 }
 
 
