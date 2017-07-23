@@ -3,16 +3,6 @@ body {
   font-family: arial;
 }
 
-
-body {
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #black;
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
-	margin: 0;
-	padding: 0;
-	}
-
 h1, h2, p, li {
   color: black
 }
@@ -102,8 +92,17 @@ li:last-child {
      background-color: #111;
  }
 
+ body {
+ 	font: 75% georgia, sans-serif;
+ 	line-height: 1.88889;
+ 	color: #black;
+ 	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+ 	margin: 0;
+ 	padding: 0;
+ 	}
+
  p {
    margin-left: 20;
-   margin-right: 20; 
+   margin-right: 20;
    max-width: 60%
  }
