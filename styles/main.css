@@ -19,7 +19,7 @@ body {
 	}
 
 h1, h2, p, li {
-  color: #666;
+  color: black
 }
 
 a {
@@ -53,6 +53,24 @@ p {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul {
+    border: 1px solid #555;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
 }
 
  ul {
