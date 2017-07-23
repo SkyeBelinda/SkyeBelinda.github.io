@@ -61,8 +61,14 @@ p {
      float: left;
  }
 
- li a {
+ a {
      display: block;
+     padding: 8px;
+     background-color: #dddddd;
+ }
+
+ li a {
+     display: inline;
      color: white;
      text-align: center;
      padding: 14px 16px;
