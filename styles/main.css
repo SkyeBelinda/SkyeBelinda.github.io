@@ -39,7 +39,7 @@ p {
 
 }
  header {
-   background-color: #999
+   background-color: black
    colour: white;
    padding: 15px 15px 0 15px;
  }
@@ -48,6 +48,12 @@ p {
    margin: 0;
    display: inline;
  }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
  ul {
      list-style-type: none;
