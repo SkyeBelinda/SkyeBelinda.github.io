@@ -26,6 +26,9 @@ a {
   color: grey;
 }
 
+h1, h2, p, li {
+    text-align: center;
+}
 
 
 p {
