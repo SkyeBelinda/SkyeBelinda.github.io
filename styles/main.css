@@ -159,3 +159,7 @@ margin-right: 20;
 +   display: inline-block;
 +   display: run-in;
 + }
+
+`img {
+  width: 80%;
+}`
