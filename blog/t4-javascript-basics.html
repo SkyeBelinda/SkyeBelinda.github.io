@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <lang="en" html>
+      <head>
+    <title>Technical Part Three </title>
+    <meta charset="UTF-8">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- (CHANGE THIS) Font -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> <!-- Online Normalize Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> <!-- Online Skeleton Stylesheet -->
+    <link rel="stylesheet" href="../styles/main.css"> <!-- My Stylesheet -->
+
+
+  </head>
+
+  <body>
+    <h1>Technical Reflection Part Four</h1>
+    <h2>Javascript Basics</h2>
+    <h3>6th August 2017 </h3>
+
+    <h4>How does JavaScript compare to HTML and CSS?</h4>
+
+    <p>
+      JavaScript is a scripting language that is not only used with HTML/CSS, but also can be used to do other things not related to web or HTML/CSS. If you need a web page which is clickable, hoverable, generally dynamic; you need to manipulate its HTML and CSS, by using JavaScript. </p>
+
+    <p>
+      Javascript is dynamic programming language. It commonly used as part of browser for website to manipulate data, interact of end-users. The most famous javascript framework is Jquery which help developer easily to develop diversity functionalities for website. Moreover, Javascript now was used a part of hybrid-mobile-app with Apache Cordova, PhoneGap to build mobile app. The term "Hybrid" was born as part of mobile app development. With combination of HTML, Hybrid techniques help developer in mobile develop without knowledge of native programming language. </p>
+
+    <h4>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h4>
+
+    <p>
+      Control flow relates to the order in which tasks or code is run. For example:Wake up, Tired => Press snooze, Not tired => Get out of bed.
+    </p>
+
+    <p>
+      Loops on the other hand, iterate over the same peice of code until the condition turns false. For example:Go to bathroom and brush teeth, Are teeth clean? No => Action: Up then down, Yes => Stop Brushing
+    </p>
+
+    <h4>Explain the difference between accessing data from arrays and objects.</h4>
+
+    <p>
+      Arrays come with several, very useful native methods. We can add a new element to existing array instance using push() and remove the last element from the array via pop(). We can also use splice() to remove n elements and/or insert new element(s) at index i.
+    </p>
+
+    <p>
+      Generally when we work with arrays, we care less about indexes and more about values. One of the common operations we perform with Arrays is checking if a certain value is in the array. This is easily accomplished using indexOf() method.
+    </p>
+
+    <p>
+      In contrast to Arrays, we generally want to know if an Object contains a certain property. Usually we will write a function that takes Object as an argument and will expect that it contains a certain set of properties. This Object can come from an API or some other piece of code and we shouldn't rely on it having all the properties we expect. It is always a good idea to check whether the property exists before accessing the value behind that property. Objects come with hasOwnProperty() method which allows us to do just that.
+
+    </p>
+
+    <p>
+
+    To summarize, Arrays are really good at storing ordered lists and ordering things while the cost of removing/splicing elements is a bit higher. Objects are great at representing schemas and the cost of augmenting or deleting properties is very low, but are not good for preserving order.
+  </p>
+
+    <h4>Explain what functions are and why they are useful.</h4>
+
+    <p>
+      A function is almost like a mini-program that we can write separately from the main program, without having to think about the rest of the program while we write it. This allows us to divide complicated tasks into smaller, simpler ones, and drastically reduces the overall complexity of our program.
+    </p>
+
+    <p>
+      Reusability -- Once a function is written, it can be called multiple times from within the program. This avoids duplicated code and minimizes the probability of copy/paste errors. Functions can also be shared with other programs, reducing the amount of code that has to be written from scratch (and retested) each time.
+    </p>
+
+    <p>
+      Testing -- Because functions reduce code redundancy, there’s less code to test in the first place. Also because functions are self-contained, once we’ve tested a function to ensure it works, we don’t need to test it again unless we change it. This reduces the amount of code we have to test at one time, making it much easier to find bugs (or avoid them in the first place).
+    </p>
+
+    <p>
+      Extensibility -- When we need to extend our program to handle a case it didn’t handle before, functions allow us to make the change in one place and have that change take effect every time the function is called.
+    </p>
+
+
+      <p>
+        Abstraction -- In order to use a function, you only need to know its name, inputs, outputs, and where it lives. You don’t need to know how it works, or what other code it’s dependent upon to use it. This is super-useful for making other people’s code accessible (such as everything in the standard library).
+      </p>
+
+
+
+
+    <footer> Thanks for visiting my site - for any further info please email skye.simpso@gmail.com <a href="https://skyebelinda.github.io">Home</a> </footer>
