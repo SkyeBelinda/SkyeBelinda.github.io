@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+  <lang="en" html>
+      <head>
+    <title>Technical Part Three </title>
+    <meta charset="UTF-8">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- (CHANGE THIS) Font -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> <!-- Online Normalize Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> <!-- Online Skeleton Stylesheet -->
+    <link rel="stylesheet" href="../styles/main.css"> <!-- My Stylesheet -->
+
+
+  </head>
+
+  <style>
+   h1 {text-align:center;}
+   h2 {text-align: center;}
+   p {text-align:center;}
+   ul {text-align: center;}
+   </style>
+
+  <body>
+    <h1>Technical Reflection Part Five</h1>
+    <h2>Problem Solving</h2>
+    <h3>6th August 2017 </h3>
+
+    <h4>Tell your non-tech friend a story about a time you: Got blocked on a simple problem</h4>
+
+    <p>What was the problem? The problem was I was trying to create my github page using my username.
+ What problem solving techniques did you use? I reached out to others on the slack chanel, did some questioning and tried to start over a few tiems, had a look at other examples.
+ How did you feel throughout the process? I felt fairly frustrated and stressed, and concerned that I was maybe missing a small step but couldn't figure out what it was.
+ What did you learn? I learnt that sometimes a simple spelling mistake or not reading the question properly can be detrimental, and it is a good idea to make sure you understand the question and instructions completely.
+      </p>
+
+<h4>
+  Tell your non-tech friend a story about a time you: Solved a problem in an elegant way
+</h4>
+
+<p>
+  What was the problem? The problem was my html and CSS code was not set out properly.
+ What problem solving techniques did you use? I used the code validator, where I put my code into the validator and it came out with which line errors are on, and a sometimes ambigious message about how to fix it.
+ How did you feel throughout the process? I feel pretty good and empowered as I could decipher the error codes and fix it myself, which deepend my understanding further.
+ What did you learn? I learnt that its good to use resources to help you solve problems effectively.
+ </p>
+
+ <h4>
+   Reflect on how confident you feel using the problem solving techniques and process:
+ </h4>
+
+ <p>
+   Pseudocode: I haven't utilized pseudocode very much so far, however I think with learning Javascript I'm going to incorporate it more using comments in my code to make sense of each part of the code and have it defined what its doing.
+ </p>
+
+ <p>
+   Trying something: I'm fairly comfortable trying things or giving things a go. </p>
+
+ <p>
+   Rubber ducky method: I'm yet to try the ribber ducky method - but I like the idea of verbalizing/ explaining what you're trying to do to a rubber ducky -  I think sometimes through the proces of explaining it you sometimes realize what part is missing/has an error.
+ </p>
+ <p>
+ Reading error messages: I like it when error messages are clear and give good indicators as to what line the error is on, and what specifically might be wrong. It feels really good to be able to decipher an error message and find the solution from it, but at times error messages can be long and hard to decipher - it's sometimes good to share it with others as they may have experienced the same error before and may have a solution to it.
+ </p>
+
+ <p>
+   Console.logging: I used console log in the eloquent javascript task last week -  and it was really helpful to show what different part of the code are doing and to help further break down the nested for loop.
+ </p>
+
+ <p>
+   Googling: I am highly comfortable with googling for answers as I already do this alot for problems outside of coding. I find it often directs you to stack overflow, which I've referred to quite a few times when working on javascript.
+ </p>
+
+ <p>
+   Asking your peers for help: I like asking my pairs for help as it I believe it helps both people, as the person who is explaining the answer is re-confirming the ideas for themself, and its easier to get an answer from a person (as opposed to an article) as you can ask further questions and clarify where you need to.
+ </p>
+
+ <p>
+   Asking coaches for help: I haven't had very good response rates when asking for help from coaches so far, but hopefully that will improve going forward.
+ </p>
+
+ <p>
+   Improving your process with reflection: I really enjoy reflecting, and think it is really vital in improving my process. I think when you're super busy it can be hard to have time to reflect on what happened and why, and how to improve, but it is a really important part of the learning and refining process.
+ </p>
+
+ <h4>
+   What does .map()do?
+   <h4>
+
+     <p>
+       Creates a new array with the results of calling a provided function on every element in this array. The map() method calls the provided function once for each element in an array, in order. Note: map() does not execute the function for array elements without values. Note: map() does not change the original array.
+     </p>
+
+     <h4>
+       What does .filter() do?
+     </h4>
+
+     <p>filter() calls a provided callback function once for each element in an array, and constructs a new array of all the values for which callback returns a value that coerces to true. callback is invoked only for indexes of the array which have assigned values; it is not invoked for indexes which have been deleted or which have never been assigned values. Array elements which do not pass the callback test are simply skipped, and are not included in the new array.
+     </p>
+
+<p>
+  callback is invoked with three arguments:
+
+<li>the value of the element</li>
+<li>the index of the element</li>
+<li>the Array object being traversed</li>
+
+<p>If a thisArg parameter is provided to filter, it will be used as the callback's this value.  Otherwise, the value undefined will be used as its this value. The this value ultimately observable by callback is determined according to the usual rules for determining the this seen by a function.</p>
+
+<p>Filter() does not mutate the array on which it is called. The range of elements processed by filter() is set before the first invocation of callback. Elements which are appended to the array after the call to filter() begins will not be visited by callback. If existing elements of the array are changed, or deleted, their value as passed to callback will be the value at the time filter() visits them; elements that are deleted are not visited. </p>
+
+
+<h4>what does .reduce() do?
+</h4>
+
+<p> reduce executes the callback function once for each element present in the array, excluding holes in the array, receiving four arguments:
+
+<li>ccumulator</li>
+<li>currentValue</li>
+<li>currentIndex</li>
+<li>array</li>
+
+<p>
+  The first time the callback is called, accumulator and currentValue can be one of two values. If initialValue is provided in the call to reduce, then accumulator will be equal to initialValue, and currentValue will be equal to the first value in the array. If no initialValue is provided, then accumulator will be equal to the first value in the array, and currentValue will be equal to the second.
+</p>
+
+<p>
+  Note: If initialValue isn't provided, reduce will execute the callback function starting at index 1, skipping the first index. If initialValue is provided, it will start at index 0.
+</p>
+
+<p>
+  If the array is empty and no initialValue is provided, TypeError will be thrown. If the array has only one element (regardless of position) and no initialValue is provided, or if initialValue is provided but the array is empty, the solo value will be returned without calling callback.
+</p>
+
+<p>
+  It is usually safer to provide an initial value because there are three possible outputs without initialValue.
+</p>
+
+
+      <footer>
+        Thanks for visiting my site - for any further info please email skye.simpso@gmail.com
+        <a href="https://skyebelinda.github.io">Home</a>
+      </footer>
+  </html>
