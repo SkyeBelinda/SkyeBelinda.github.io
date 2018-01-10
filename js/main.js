@@ -1,7 +1,4 @@
-$(".typed").typed({
-    strings: ["My name is Skye.", "I'm a Web Developer."],
-    typeSpeed: 100,
-    backDelay: 900,
-    // loop
-    loop: true
+var typed = new Typed('.typed', {
+    strings: ["Hi, my name is Skye.", "I love coding."],
+    typeSpeed: 30
 });
